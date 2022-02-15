@@ -1,1 +1,24 @@
+echo $PATH shows path where enviromental varibles are saved
+pwd - print current working directory
+cd . - current directory
 
+ls command...
+
+ls -a = used to show all hidden files.
+ls -R = shows all files in folders within folders
+cd .. = previous directory
+ls -l shows more info.r
+ls -al = combination of -a nd -l.... shows more info all hidden files with more details.
+cd ~/downloadspa = can also pass directory
+
+cat command....
+used to list all the data in file .
+cat > filename = creates file.
+echo shows whatever you want to print.
+echo amit > total.txt will override all the content.
+man "command name" will show the help for that command.
+tr = translates all the data in file. try cat file.txt | tr a-z A-Z > upper.txt (will translate all the letters to uppercase and in new file.)
+pipe [ | ] command means output of file written to LHS will work as input for RHS File.
+mkdir -p = command will create a middle directory in middle of the current directory.
+touch filename.txt = will create filename.txt
+cp amit.txt copy_amit.txt = will copy the file to copy_amit.txt
