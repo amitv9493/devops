@@ -1,0 +1,21 @@
+"apple": "i am red fruit"
+1: "this is my roll number"
+
+---
+# llsts
+- apple 
+- mango
+- banana
+
+---
+cities:
+- new delhi
+- mumbai 
+- gujarat 
+
+---
+cities: [new delhi, mumbai]
+
+---
+
+{mango: 'yellow fruit', age: 56 }
