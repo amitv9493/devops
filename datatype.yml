@@ -1,0 +1,44 @@
+# string variable
+
+a: 14
+b: 11
+c: 22
+
+# write single line in multiple lines 
+message: >
+this will be 
+consider in one single line 
+
+# same as
+
+message: this will be consider in one single line 
+
+number: 5473
+marks: 555
+bolleanValue: False # can be used n, N NO. False, flase
+
+#same for the yes y Y YES True
+
+# specify the type
+zero: !!int 0
+postitiveNum: !!int 45
+negativeNum: !!int -45
+
+#FLOATING POINTS NUMBERS 
+marks: !!float 56.89
+infinite: !!float .infinite
+NAN: .nan
+
+#NULL value
+surname: !!null Null
+
+# dates and time
+date: 2022-22-14
+
+time: 2:55:30
+
+
+
+
+
+
