@@ -22,3 +22,22 @@ pipe [ | ] command means output of file written to LHS will work as input for RH
 mkdir -p = command will create a middle directory in middle of the current directory.
 touch filename.txt = will create filename.txt
 cp amit.txt copy_amit.txt = will copy the file to copy_amit.txt
+
+user and group add.....
+
+sudo useradd amit 
+sudo userdel amit 
+sudo cat /etc/passwd (check if the user was created)
+sudo cat /etc/group/ (check if the group was created)
+sudo passwd amit ---- will set password 
+sudo groupadd <name>
+sudo groupdel <name>
+sudo gpasswd -M user1,user2,user3 <groupname> (add users to a group)
+chmod u+rwx text.txt (add user permission for a file)
+chmod g+rwx gext.txt (add group permission)
+chmod o-rwx text.txt (remove others permission)
+chmod 777 test.txt (change permissions for the u+g+o) ==> 4=read, 2=write, 1=execute, ALL=4+2+1 == 7
+sudo usermod -g <groupname> <username> (force to change the default group of a user)
+sudo su (enter superuser mode)
+sudo <username> (enter as a username)
+
